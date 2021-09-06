@@ -1,0 +1,43 @@
+.game-maker {
+    font-family: National2CompressedWeb,"Helvetica Condensed","Arial Narrow",sans-serif;
+    letter-spacing: .05rem;
+    background: #326826;
+    color: white;
+}
+
+.game-maker p {
+    margin: 1px;
+    padding-left: 8px;
+    font-size: 20px;
+}
+
+.img-fit {
+    object-fit: contain;
+}
+
+.content-box{
+    background-color: rgb(61, 59, 59);
+    width: 1000px;
+    height: 350px;
+}
+
+.white-border{
+    border: solid 7px;
+    border-radius: 3px;
+    width: 35%;
+    height: 90%;
+    margin: 10px;
+}
+
+.white-border-mini{
+    border: solid 4px;
+    border-radius: 3px;
+    margin: 8px;
+    width: 580px;
+    height: fit-content;
+}
+
+.input-size{
+    height: 40px;
+    width: 250px;
+}
