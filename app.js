@@ -57,6 +57,9 @@ var app = new Vue({
                 this.Strength = Math.floor(this.Strength *  1.1);
                 this.Agility = Math.floor(this.Agility * 1.1);
             }
+        },
+        traitsChange(event){
+            this.Traits = event.target.value;
         }
     }
 })
