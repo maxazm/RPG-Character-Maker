@@ -57,7 +57,7 @@
                 </form>
                 <form>
                     <label class="col-1">Traits</label>
-                    <select class="input-size" @change="abilityBoost($event)">
+                    <select class="input-size" @change="abilityBoost($event); traitsChange($event)">
                         <option value="Everyman" selected>Everyman</option>
                         <option value="Bat out of hell">Bat out of hell</option>
                         <option value="Brave">Brave</option>
